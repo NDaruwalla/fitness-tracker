@@ -11,7 +11,11 @@ body,
 .wrapper {
   height: 100%;
   /* Nicole's customization - image from pexels.com, no attribution required */
-  /* background-image: url(../images/background.jpg); */
+  background-image: url(../images/background.jpg);
+  height: 900px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
 }
 
 body {
