@@ -10,6 +10,8 @@ html,
 body,
 .wrapper {
   height: 100%;
+  /* Nicole's customization - image from pexels.com, no attribution required */
+  /* background-image: url(../images/background.jpg); */
 }
 
 body {
