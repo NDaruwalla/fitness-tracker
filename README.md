@@ -40,7 +40,7 @@
   ### Fitness Tracker Dashboard
   Image of the Fitness Tracker Dashboard showing graphs of total weight lifted by day and total duration of workout by day.
 
-  ![Dashboard](public/images/dashboard.jpg)
+  ![Dashboard](public/images/dashboard1.jpg)
 
 
   ## User Story 

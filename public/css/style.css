@@ -12,11 +12,10 @@ body,
   height: 100%;
   /* Nicole's customization - image from pexels.com, no attribution required */
   background-image: url(../images/background.jpg);
-  
-  height: 900px; /* specified height */
+  height: 800px; /* specified height */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
+  background-size: cover;  /* Resize the background image to cover the entire container */
 }
 
 body {
