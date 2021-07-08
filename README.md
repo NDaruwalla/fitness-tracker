@@ -7,6 +7,7 @@
   - [Links](#links)
   - [Screen Captures](#screen-captures)
   - [User Story](#user-story)
+  - [Business Need](#business-need)
   - [Acceptance Criteria](#acceptance-criteria)
   - [Key Features](#key-features)
   - [Tools](#tools)
@@ -19,7 +20,7 @@
   - [Questions](#questions)
 
   ## Description / Objective
-  here
+  This workout tracker demonstrates my ability to create a Mongo database with a Mongoose scheme and handle routes with Express. Front end code was provided and I customized is according to my preferences. 
 
   ## Links
   ### Github Repository 
@@ -30,29 +31,47 @@
 
   ## Screen Captures
 
+  ### Fitness Tracker Application Homepage
+  
+  Image of the Fitness Tracker application homepage showing details about the last workout. From here the user can create a new workout, continue a workout, or view the dashboard.
 
+  ![Homepage](public/images/homepage.jpg)
 
-   ### Fitness Tracker Application Homepage
-  Image of the Fitness Tracker application homepage showing....
+  ### Fitness Tracker Dashboard
+  Image of the Fitness Tracker Dashboard showing graphs of total weight lifted by day and total duration of workout by day.
 
- ![Homepage](./images/homepage.png)
+  ![Dashboard](public/images/dashboard.jpg)
 
 
   ## User Story 
    ```md
-    here
+    As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
   ```
+  ## Business Need
+
+    A consumer will reach their fitness goals more quickly when they track their workout progress.
 
   ## Acceptance Criteria
   ```md
-  here
+  When the user loads the page, they should be given the option to create a new workout or continue with their last workout.
+
+The user should be able to:
+
+  * Add exercises to the most recent workout plan.
+
+  * Add new exercises to a new workout plan.
+
+  * View the combined weight of multiple exercises from the past seven workouts on the `stats` page.
+
+  * View the total duration of each workout from the past seven workouts on the `stats` page.
 
   ```
   ## Key Features 
   The key features of this application include:
 
-  * here
-
+  * A visually pleasing UI
+  * A dashboard with workout totals displayed in graphs
+  * Forms to enter resistance training and/or strength training
 
 
   ## Tools
@@ -63,7 +82,7 @@
 
 
   ## Use
-  Use this application is used to ...
+  Use this application is used to track workouts.
 
   ## License
   MIT
