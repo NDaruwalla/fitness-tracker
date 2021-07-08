@@ -20,7 +20,7 @@
   - [Questions](#questions)
 
   ## Description / Objective
-  This workout tracker demonstrates my ability to create a Mongo database with a Mongoose scheme and handle routes with Express. Front end code was provided and I customized is according to my preferences. 
+  This workout tracker was created with a Mongo database, a Mongoose schema and Express routes. The front end code was provided and I customized it according to my preferences. 
 
   ## Links
   ### Github Repository 
@@ -89,7 +89,11 @@ The user should be able to:
 
 
   ## Use
-  Use this application is used to track workouts.
+  To use this application to track workouts, follow the following steps:
+
+  1. Clone this repository to your local machine.
+  2. Run npm install to install the dependencies noted in the Installation section of this document. 
+  3. Run node server.js to start the application.
 
   ## License
   MIT
@@ -102,9 +106,15 @@ The user should be able to:
   Nicole Daruwalla 
 
   ## References
-  The following references were used to create this application: 
+  The following references were used to create this application:
+
   - Assignment Readme
-  - 
+  - https://docs.npmjs.com/
+  - https://docs.mongodb.com/guides/
+  - https://mongoosejs.com/docs/
+  - https://docs.mongodb.com/manual/reference/operator/aggregation/addFields/
+  - https://docs.mongodb.com/manual/reference/operator/aggregation/sum/
+  - https://mongoosejs.com/docs/api.html#aggregate_Aggregate
 
 
   ## Tests
