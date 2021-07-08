@@ -80,6 +80,13 @@ The user should be able to:
   ## Installation
   The following packages were installed:
 
+    * Dotenv
+    * Express
+    * Mongoose
+    * Morgan
+    * Nodemon
+    * Path
+
 
   ## Use
   Use this application is used to track workouts.
@@ -96,7 +103,8 @@ The user should be able to:
 
   ## References
   The following references were used to create this application: 
-  - list here
+  - Assignment Readme
+  - 
 
 
   ## Tests
