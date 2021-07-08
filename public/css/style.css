@@ -47,7 +47,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #0ee267;
+  background-color: #11ca5e;
   color: #3e4643;
 }
 
@@ -448,4 +448,8 @@ form > button {
     opacity: 0;
     right: -320px;
   }
+}
+
+.bkg-white {
+  background-color: white;
 }
