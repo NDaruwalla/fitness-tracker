@@ -8,12 +8,13 @@ const PORT = process.env.PORT || 3000;
 // Create the express app
 const app = express();
 
+app.use(logger("dev"));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 app.use(express.static("public"));
 
-// Create mongoose database connection
+// Create mongoose database connection, OR localhost connection
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/fitnesstracker", {
   useNewUrlParser: true,
   useUnifiedTopology: true,

@@ -136,21 +136,7 @@ let workoutSeed = [
 ];
 console.log(workoutSeed);
 console.log(db);
-//console.log(Workout);
-//db.workout.collection.deleteMany()
-// db.Workout.deleteMany({})
-// //db.deleteMany({})
-// //db.deleteMany({})
-// //db.collection("workout").deleteMany()
-//   .then(() => db.Workout.collection.insertMany(workoutSeed))
-//   .then(data => {
-//     console.log(data.result.n + ' records inserted!');
-//     process.exit(0);
-//   })
-//   .catch(err => {
-//     console.error(err);
-//     process.exit(1);
-//   });
+
 
   db.Workout.deleteMany({})
   .then(() => db.Workout.collection.insertMany(workoutSeed))
