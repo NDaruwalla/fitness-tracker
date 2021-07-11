@@ -8,15 +8,6 @@ mongoose.connect("mongodb://localhost/fitnesstracker", {
 });
 
 
-// const mongoose = require('mongoose');
-// const db = require('../models/exercise');
-
-// mongoose.connect('mongodb://localhost/fitnesstracker', {
-//   useNewUrlParser: true,
-//   useFindAndModify: false,
-//   useUnifiedTopology: true,
-// });
-
 let workoutSeed = [
   {
     day: new Date(new Date().setDate(new Date().getDate() - 9)),
